@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
 
-        window = UIWindow.init(frame: UIScreen.main.bounds) //main container for scene/screens
+        window = UIWindow.init(frame: UIScreen.main.bounds) //main container for screens
         window?.rootViewController = TennisMatchesVC.init() //setup
         window?.makeKeyAndVisible()
         
